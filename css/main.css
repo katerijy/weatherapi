@@ -1,0 +1,47 @@
+*, *::after, *::before{
+    margin: 10
+    padding: 10;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-sizeL 62.5%;
+}
+body{
+    font-family: 'Nunito', san serif;
+    color:rgb(155, 199, 186)
+    font-weight: 300
+    line-height: 1.6;
+}
+
+.container-fluid {
+    background-color: rgb(155, 199, 186);
+    background-image:
+      height: 300px;
+      width: auto;
+
+}
+
+.center {
+    text-align: center;
+}
+ 
+
+/* Search button
+const buttonElement = document.getElementById('btn');
+
+// Add a handler for the 'click' event by providing a callback function.
+// Whenever the element is clicked, a pop-up with "Element clicked!" will
+// appear.
+buttonElement.addEventListener('click', function (event) {
+  alert('Element clicked through function!');
+});
+
+// For compatibility, a non-function object with a `handleEvent` property is
+// treated just the same as a function itself.
+buttonElement.addEventListener('click', {
+  handleEvent: function (event) {
+    alert('Element clicked through handleEvent property!');
+  }
+});

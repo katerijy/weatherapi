@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/main.js" defer></script>
+  <title>Skies</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">What's the weather today?</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="ZipCode" aria-label="ZipCode">
+          <button onclick="searchZ()" class="btn btn-outline-success" type="submit">Quick</button>
+        </form>
+    </nav>
+        <form class="row g-3">
+        <h1 class="text-center">Search your Sky</h1>
+        <img class="image-fluid" src="https://images.unsplash.com/photo-1614353913253-81de4fd769a9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8c2t5JTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60";    
+        <div class="col-md-">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" name="City">
+            <button onclick="searchC()" type="submit" class="btn btn-primary">Search</button>
+ 
+        </div>
+      </form>
+     
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>
